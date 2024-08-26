@@ -5,41 +5,43 @@ void main() {
   double altura = 1.7;
   bool maiorIdade = false;
   String? statusIdade;
-  
-  if(idade > 17){
+
+  if (idade > 17) {
     maiorIdade = true;
   }
-  
-  if(maiorIdade){
-   statusIdade = "possi maior idade.";
+
+  if (maiorIdade) {
+    statusIdade = "possui maior idade.";
   } else {
     statusIdade = "não possui maior idade.";
   }
-  
-  print("nome: $nome. \n idade: $idade anos. \n peso: $peso kg. \n altura: $altura m.\n $maiorIdade.");
-  
+
+  print("nome: $nome. \nidade: $idade anos. \npeso: $peso kg. \naltura: $altura m.\n$statusIdade");
+
   int nota = 75;
-  
-  if(nota >= 90){
+
+  if (nota >= 90) {
     print("A");
-  }else if (nota >= 80){
+  } else if (nota >= 80) {
     print("B");
-  } else if (nota >= 70)
+  } else if (nota >= 70) {
     print("C");
-  } else{
-   print("D");
+  } else {
+    print("D");
   }
 
   String diaDaSemana = 'Segunda-Feira';
 
-  switch (diaDaSemana){
-    case 'Segunda-Feira' || 'Terça-feira' || 'Quarta-Feira':
-      print('Dia util');
+  switch (diaDaSemana) {
+    case 'Segunda-Feira':
+    case 'Terça-Feira':
+    case 'Quarta-Feira':
+      print('Dia útil');
       break;
-    case 'Sabado':
+    case 'Sábado':
       print('Final de semana');
       break;
     default:
-      print('Dia Invalido');
+      print('Dia inválido');
   }
 }
