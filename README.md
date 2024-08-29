@@ -1,5 +1,3 @@
-# LearnDart
-
 # Repositório de Estudos de Dart
 
 Este repositório contém os códigos das atividades que estou realizando enquanto aprendo a linguagem de programação Dart. O objetivo é praticar e aprimorar minhas habilidades, explorando os conceitos fundamentais e aplicando-os em diferentes cenários.
