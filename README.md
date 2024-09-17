@@ -20,7 +20,7 @@ Sinta-se à vontade para acompanhar meu progresso e conferir os códigos que vou
 
 ---
 
-_Acompanhe meu progresso enquanto desbravo o universo de Dart!_
+_Acompanhe meu progresso enquanto desbravo o universo de Dart!
 
 
 ## 🔗 Links
